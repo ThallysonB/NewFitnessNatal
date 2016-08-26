@@ -160,8 +160,10 @@ body {
     margin-bottom: 1em;
     color: #FFFFFF; }
 
-.title-photos .title {
-  color: white; }
+.title-photos {
+  padding-bottom: 1em; }
+  .title-photos .title {
+    color: white; }
 
 #slide .item {
   margin: 3px; }
@@ -246,7 +248,6 @@ body {
   margin: 25px 0; }
 
 .title-team .title {
-  font-size: 1.5em;
   margin-bottom: 1em;
   color: #FFFFFF; }
 
