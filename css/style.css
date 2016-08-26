@@ -220,7 +220,7 @@ body {
     border: 1px solid #fdc029; }
 
 .container-time {
-  height: 330px; }
+  padding-bottom: 4em; }
 
 .description-time {
   font-family: 'gotham', 'Roboto', sans-serif;
@@ -251,7 +251,6 @@ body {
   color: #FFFFFF; }
 
 .container-team {
-  margin-top: 22em;
   background-color: #2c2b26; }
 
 .typed-cursor {
