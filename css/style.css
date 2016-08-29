@@ -6,8 +6,7 @@
 body {
   font-family: 'gotham', 'Roboto' sans-serif;
   background-color: #e0e0e0;
-  overflow-x: hidden;
-  margin: 0 0; }
+  overflow-x: hidden; }
 
 .navbar {
   margin-bottom: 0; }
@@ -467,7 +466,6 @@ body {
 
 .container-location {
   background-color: #FFFFFF;
-  margin-bottom: -4em;
   padding-right: 0;
   padding-left: 0; }
   .container-location .row-location {
@@ -604,10 +602,12 @@ body {
   .verticalLine {
     display: none; }
 
-  .container-location .infos {
-    padding-top: 5.5em; }
-  .container-location .google-maps__adress {
-    padding-top: 1px; }
+  .container-location {
+    margin-bottom: -4em; }
+    .container-location .infos {
+      padding-top: 5.5em; }
+    .container-location .google-maps__adress {
+      padding-top: 1px; }
 
   .container-footer .nav-footer {
     padding-left: 3em;

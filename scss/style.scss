@@ -13,7 +13,6 @@ body {
   font-family: 'gotham', 'Roboto' sans-serif;
   background-color: #e0e0e0;
   overflow-x: hidden;
-  margin: 0 0;
 }
 .navbar {
   margin-bottom: 0;
@@ -555,7 +554,6 @@ body {
 }
 .container-location {
   background-color: #FFFFFF;
-  margin-bottom: -4em;
   padding-right: 0;
   padding-left: 0;
   .row-location {
@@ -732,7 +730,7 @@ body {
   }
 
   .container-location {
-
+    margin-bottom: -4em;
     .infos {
       padding-top: 5.5em;
     }
