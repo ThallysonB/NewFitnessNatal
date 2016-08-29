@@ -183,6 +183,28 @@ body {
     width: 100%;
     height: auto; }
 
+.customNavigation {
+  margin-top: 1.5em;
+  text-align: center; }
+  .customNavigation .btn-slide {
+    font-family: 'gotham', 'Roboto', sans-serif;
+    padding: 1em;
+    margin-right: 1em;
+    border-radius: 5px;
+    background-color: #fdc029;
+    border-color: transparent;
+    transition: 0.5s;
+    font-weight: bold;
+    color: #191919;
+    text-transform: uppercase; }
+    .customNavigation .btn-slide:hover, .customNavigation .btn-slide:active, .customNavigation .btn-slide:focus,
+    .customNavigation .btn-slide a {
+      color: #FFFFFF;
+      text-decoration: none;
+      cursor: pointer;
+      background-color: transparent;
+      border: 1px solid #fdc029; }
+
 .container-time {
   padding-bottom: .6em; }
   .container-time .description-time {

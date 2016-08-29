@@ -27,7 +27,9 @@ $(document).ready(function() {
       itemsDesktopSmall : [979,3],
       autoPlay : true,
       lazyLoad : true,
-      pagination : true,
+      pagination : false,
+      navigation : false
+
   });
 
   var owl = $("#slide");

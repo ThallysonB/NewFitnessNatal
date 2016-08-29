@@ -209,6 +209,32 @@ body {
     }
   }
 }
+.customNavigation{
+  margin-top: 1.5em;
+  text-align: center;
+  .btn-slide {
+     font-family: 'gotham', 'Roboto', sans-serif;
+    padding: 1em;
+    margin-right: 1em;
+    border-radius: 5px;
+    background-color: #fdc029;
+    border-color: transparent;
+    transition: 0.5s;
+    font-weight: bold;
+    color: $main-color;
+    text-transform: uppercase;
+    &:hover,
+    &:active,
+    &:focus,
+    a {
+      color: #FFFFFF;
+      text-decoration: none;
+      cursor: pointer;
+      background-color: transparent;
+      border: 1px solid #fdc029;
+    }
+  }
+}
 .container-time {
   padding-bottom: .6em;
   .description-time {
