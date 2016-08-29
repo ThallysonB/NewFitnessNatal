@@ -6,7 +6,8 @@
 body {
   font-family: 'gotham', 'Roboto' sans-serif;
   background-color: #e0e0e0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  margin: 0 0; }
 
 .navbar {
   margin-bottom: 0; }
