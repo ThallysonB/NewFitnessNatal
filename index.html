@@ -7,6 +7,8 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
   <!-- Important Owl stylesheet -->
   <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
@@ -14,171 +16,374 @@
   <!-- Default Theme -->
   <link rel="stylesheet" href="owl-carousel/owl.theme.css">
 
+  <link rel="stylesheet" href="css/lightbox.css">
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
-<nav class="navbar navbar-inverse header">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-        <img class="logo" src="img/logo-newfitness.png" alt="Logo NewFitness">
-    </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#">Horários</a></li>
-        <li><a href="#about">Instrutores</a></li>
-        <li><a href="#contact">Localização</a></li>
-        <li><a href="#contact">Contato</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</nav>
+	<nav class="navbar navbar-inverse">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	        <a href=""><img class="logo" src="img/logo-newfitness.png" alt="Logo NewFitness"></a>
+	    </div>
+	    <div class="collapse navbar-collapse">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#sobre">Sobre</a></li>
+	        <li><a href="#horários">Horários</a></li>
+	        <li><a href="#instrutores">Instrutores</a></li>
+	        <li><a href="#localização">Localização</a></li>
+	        <li><a href="#contato">Contato</a></li>
+	      </ul>
+	    </div><!--/.nav-collapse -->
+	  </div>
+	</nav>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-13">
-      <div class="header-content">
-        <h1 class="title-header"><span class="title-header__featured">New</span> <span class="title-header__featured">Fitness</span> é:</h1>
-        <div class="typed"></div>
-        <div class="button-location">
-          <p><a class="btn-location" href="#" role="button">Localização</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+	<div class="container-fluid">
+	  <div class="row">
+	    <div class="col-sm-13">
+	      <div class="header-content">
+	        <h1 class="title-header"><span class="title-header__featured">New</span> <span class="title-header__featured">Fitness</span> é:</h1>
+	        <div class="typed"></div>
+	        <div class="button-location">
+	          <p><a class="btn-location" href="#localização" role="button">Localização</a></p>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
-<div class="container-fluid container-about">
-  <div class="row">
-    <div class="col-sm-12">
-      <h2 class="title title-about">Sobre Nós</h2>
-    </div>
-    <div class="col-sm-5">
-      <img class="logo-about" src="img/logo-newfitness_about.png" alt="Logo NewFitness">
-    </div>
-    <div class="col-sm-6">
-      <div class="verticalLine"></div>
-      <p class="description-about"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna. Aliquam in lorem sit amet leo accumsan lacinia. Integer rutrum, orci vestibulum ullamcorp.
-      <br/>
-      <br/>
-     Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum Morbi leo mi.</p>
-    </div>
-  </div>
-</div>
-<div class="container-fluid container-photos">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="title-photos">
-        <h2 class="title">Fotos</h2>
-      </div>
-      <div class="slide-photos">
+	<div class="container-fluid container-about" id="sobre">
+	  <div class="row">
+	    <div class="col-sm-12">
+	      <h2 class="title title-about">Sobre Nós</h2>
+	    </div>
+	    <div class="col-sm-5">
+	      <img class="logo-about" src="img/logo-newfitness_about.png" alt="Logo NewFitness">
+	    </div>
+	    <div class="col-sm-6">
+	      <div class="verticalLine"></div>
+	      <p class="description-about"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna. Aliquam in lorem sit amet leo accumsan lacinia. Integer rutrum, orci vestibulum ullamcorp.
+	      <br/>
+	      <br/>
+	     Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum Morbi leo mi.</p>
+	    </div>
+	  </div>
+	</div>
+	<div class="container-fluid container-photos" id="fotos">
+	  <div class="row">
+	    <div class="col-sm-12">
+	      <div class="title-photos">
+	        <h2 class="title">Fotos</h2>
+	      </div>
+	      <div class="slide-photos">
 
-        <div id="slide">
-          <div class="item"><img src="assets/img/owl1.jpg" alt="Owl Image"></div>
-          <div class="item"><img src="assets/img/owl2.jpg" alt="Owl Image"></div>
-          <div class="item"><img src="assets/img/owl3.jpg" alt="Owl Image"></div>
-          <div class="item"><img src="assets/img/owl4.jpg" alt="Owl Image"></div>
-          <div class="item"><img src="assets/img/owl5.jpg" alt="Owl Image"></div>
-          <div class="item"><img src="assets/img/owl6.jpg" alt="Owl Image"></div>
-          <div class="item"><img src="assets/img/owl7.jpg" alt="Owl Image"></div>
-          <div class="item"><img src="assets/img/owl8.jpg" alt="Owl Image"></div>
-        </div>
-         <div class="customNavigation">
-           <a class="btn-slide prev">Anterior</a>
-            <a class="btn-slide next">Próximo</a>
-          </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container container-time">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="title-time">
-        <h2 class="title">Horários</h2>
-        <p class="description-time">Nossos horários de funcionamento</p>
-      </div>
-    </div>
-    <div class="time-details">
-      <div class="col-sm-5">
-        <h3>Segunda a Sexta</h3>
-        <p>06:00hrs às 22h00</p>
-      </div>
-      <div class="col-sm-2">
-        <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-      </div>
-      <div class="col-sm-5">
-        <h3>Sábado</h3>
-        <p>06:00hrs às 12h00</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container-fluid container-team">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="title-team">
-      <h2 class="title">Instrutores</h2>
-      </div>
-    </div>
+	        <div id="slide">
+	        	<div class="item"><a class="example-image-link" href="img/owl2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="img/owl2.jpg" alt=""/></a></div>
+      			<div class="item"><a class="example-image-link" href="img/owl2.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="img/owl3.jpg" alt="" /></a></div>
+      			<div class="item"><a class="example-image-link" href="img/owl4.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="img/owl4.jpg" alt="" /></a></div>
+      			<div class="item"><a class="example-image-link" href="img/owl5.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="img/owl5.jpg" alt="" /></a></div>
+      			<div class="item"><a class="example-image-link" href="img/owl6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="img/owl6.jpg" alt="" /></a></div>
+      			<div class="item"><a class="example-image-link" href="img/owl7.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="img/owl7.jpg" alt="" /></a></div>
+      			<div class="item"><a class="example-image-link" href="img/owl8.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="img/owl8.jpg" alt="" /></a></div>
+	        </div>
+	        <div class="customNavigation">
+	          <a class="btn-slide prev">Anterior</a>
+	          <a class="btn-slide next">Próximo</a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="container container-time" id="horários">
+	  <div class="row">
+	    <div class="col-sm-12">
+	      <div class="title-time">
+	        <h2 class="title">Horários</h2>
+	        <p class="description-time">Nossos horários de funcionamento</p>
+	      </div>
+	    </div>
+	    <div class="time-details">
+	      <div class="col-sm-5">
+	        <h3>Segunda a Sexta</h3>
+	        <p>06:00hrs às 22h00</p>
+	      </div>
+	      <div class="col-sm-2">
+	        <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+	      </div>
+	      <div class="col-sm-5">
+	        <h3>Sábado</h3>
+	        <p>06:00hrs às 12h00</p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="container-fluid container-princing" id="mensalidade">
+	  <div class="row">
+	  	<div class="col-md-6 col-md-offset-3">
+	  		<div id="toggle-pricing" class="pricing-table">
+	  			<div class="pricing-table__header">
+	  				<div class="pricing-icon__header">
+	  					<i class="fa fa-hand-o-down"></i>
+	  				</div>
+	  				<h4 class="heading">Mensalidade</h4>
+	  			</div>
+	  			<div class="price-value">
+	  				<span class="currency">R$ </span><span class="value-month">45,00</span><span class="month">mensal</span>
+	  			</div>
+					<div class="pricing-table__alert">
+						<div class="alert alert-danger" role="alert">Matrícula e renovação após o vencimento, o preço é alterado para <b>R$ 50,00</b>.</div>
+						<div class="pricing-table__footer">
+							<div class="pricing-icon__footer">
+		  					<i class="fa fa-hand-o-up"></i>
+		  				</div>
+	  				</div>
+					</div>
+	  		</div>
+	  	</div>
+	 	</div> <!-- END ROW -->
+	</div> <!-- END CONTAINER -->
+	<div class="container-fluid container-team" id="instrutores">
+	  <div class="row">
+	    <div class="col-sm-12">
+	      <div class="title-team">
+	      	<h2 class="title">Instrutores</h2>
+	      </div>
+	    </div>
+	        <div class="col-md-3 col-sm-6">
+	            <div class="our-team">
+	                <div class="team">
+	                    <div class="pic">
+	                        <img src="img/Ramonier_Dantas.jpg">
+	                        <ul class="social-links">
+	                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+	                <div class="team-info">
+	                    <h3 class="title">Ramonier Dantas</h3>
+	                    <span class="post">Profissional Trainer</span>
+	                    <p class="description">
+	                        Graduante em Educação Física, apaixonado por academia e estagiário da New Fitness.
+	                    </p>
+	                    <span class="schedule">12:30h às 17:30</span>
+	                </div>
+	            </div>
+	        </div>
+	 
+	        <div class="col-md-3 col-sm-6">
+	            <div class="our-team">
+	                <div class="team">
+	                    <div class="pic">
+	                        <img src="img/Haryson_Lhorram.jpg">
+	                        <ul class="social-links">
+	                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+	                <div class="team-info">
+	                    <h3 class="title">Haryson Lhorram</h3>
+	                    <span class="post">Profissional Trainer</span>
+	                    <p class="description">
+	                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum id enim sit.
+	                    </p>
+	                    <span class="schedule">12:30h às 17:30</span>
+	                </div>
+	            </div>
+	        </div>
 
-      </div>
-    </div>
+					<div class="col-md-3 col-sm-6">
+	            <div class="our-team">
+	                <div class="team">
+	                    <div class="pic">
+	                        <img src="img/Ellen_Alexsandra.jpg">
+	                        <ul class="social-links">
+	                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+	                <div class="team-info">
+	                    <h3 class="title">Ellen Alexsandra</h3>
+	                    <span class="post">Profissional Trainer</span>
+	                    <p class="description">
+	                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum id enim sit.
+	                    </p>
+	                    <span class="schedule">12:30h às 17:30</span>
+	                </div>
+	            </div>
+	        </div>
 
+					<div class="col-md-3 col-sm-6">
+	            <div class="our-team">
+	                <div class="team">
+	                    <div class="pic">
+	                        <img src="img/Rogencleiton_Nascimento.jpg">
+	                        <ul class="social-links">
+	                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+	                <div class="team-info">
+	                    <h3 class="title">Rogencleiton Nascimento</h3>
+	                    <span class="post">Profissional Trainer</span>
+	                    <p class="description">
+	                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	                    </p>
+	                    <span class="schedule">12:30h às 17:30</span>
+	                </div>
+	            </div>
+	        </div>
+	    </div> <!-- END ROW -->
+	</div> <!-- END CONTAINER -->
+
+	<div class="container-fluid container-instagram" id="instagram">
+	  <div class="row">
+	  	<div class="col-md-12">
+	  		<!-- <div class="container-instagram__mask"></div> -->
+				<h2 class="title title-instagram">Instagram</h2>
+				<h3 class="user-instagram"><a href="https://www.instagram.com/newfitnessacademia_/" target="_blank">@newfitnessacademia_</a></h3>
+				<div id="instafeed"></div>
+	  	</div>	
+	  </div> <!-- END ROW -->
+	</div> <!-- END CONTAINER -->
+
+	<div class="container-fluid container-testimonial" id="depoimentos">
+	  <div class="row">
+	  	<div class="col-md-12">
+	  		<h3 class="title title-testimonial">Depoimentos</h3>
+				<div class="main-gallery">
+					<div class="testimonial">
+						<div class="item"><a class="example-image-link" href="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" data-lightbox="testimonial1"><img class="testimonial-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt=""/></a></div>
+					  <q class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla."</q>
+					  <span class="testimonial-author">Joe Smith, CEO of Cubix</span>
+					</div>
+					<div class="testimonial">
+					  <div class="item"><a class="example-image-link" href="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" data-lightbox="testimonial2"><img class="testimonial-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt=""/></a></div>
+					  <q class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla."</q>
+					  <span class="testimonial-author">Joe Smith, CEO of Cubix</span>
+					</div>
+					<div class="testimonial">
+					  <div class="item"><a class="example-image-link" href="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" data-lightbox="testimonial3"><img class="testimonial-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt=""/></a></div>
+					  <q class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla."</q>
+					  <span class="testimonial-author">Joe Smith, CEO of Cubix</span>
+					</div>
+					<div class="testimonial">
+					  <div class="item"><a class="example-image-link" href="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" data-lightbox="testimonial4"><img class="testimonial-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt=""/></a></div>
+					  <q class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla."</q>
+					  <span class="testimonial-author">Joe Smith, CEO of Cubix</span>
+					</div>
+	      </div>
+	      	<div class="customNavigation customNavigation-testimonial">
+	          <a class="btn-slide prev btn-testimonial">Anterior</a>
+	          <a class="btn-slide next btn-testimonial">Próximo</a>
+	      	</div>
+	  	</div> <!-- END col-md-12 -->
+		</div> <!-- END ROW -->
+	</div> <!-- END CONTAINER -->
+
+	<div class="container-fluid container-location" id="localização">
+	  <div class="row row-location">
+			<div class="col-md-12">
+				<h2 class="title title-location">Localização</h2>
+			</div>
+			<div class="col-md-5 col-sm-4">
+				<ul class="infos">
+					<li><h1 class="title-name">New Fitness academia unid. 02</h1></li>
+					<li><h2 class="adress">Av. José Luiz da Silva, 720, Natal/RN.</h2></li>
+					<li><h3 class="phone">(84) 98602-8590</h3></li>
+				</ul>
+			</div>
+			<div class="col-md-7 col-sm-8">
+				<div class="google-maps__adress">
+					<div id="googleMap"></div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="container-fluid container-footer"> 
+		<div class="row">
+			<div class="col-xs-6 col-sm-4 col-md-3">
+					<ul class="nav-footer">
+		        <li><a href="#sobre">Sobre</a></li>
+		        <li><a href="#fotos">Fotos</a></li>
+		        <li><a href="#horários">Horários</a></li>
+		        <li><a href="#mensalidade">Mensalidade</a></li>
+		        <li><a href="#instrutores">Instrutores</a></li>
+		      </ul>
+		    </div>
+		  	<div class="col-xs-6 col-sm-4 col-md-3">
+		      <ul class="nav-footer nav-footer2">
+		        <li><a href="#instagram">Instagram</a></li>
+		        <li><a href="#depoimentos">Depoimentos</a></li>
+		        <li><a href="#localização">Localização</a></li>
+		        <li><a href="#contato">Contato</a></li>
+		      </ul>
+		  	</div>
+		  	<div class="col-xs-12 col-sm-4 col-md-2">
+	    		<div class="social">
+	    			<h4 class="title-social">Siga-nos</h4>
+	    			<ul class="social-links">
+	    				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	          	<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	        	</ul>
+	    		</div>
+	    	</div>
+	     <div class="col-md-4 container-logo">
+	    		<div class="logo-fotter">
+	    			<div class="box-logo">
+	    				<img class="logo-img" src="img/pin.png" alt="">
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div> <!-- END NAVIGATION-FOOTER -->
+		</div> <!-- END ROW -->
+	</div> <!-- END FOOTER -->
+	<div class="container-fluid container-credits"> 
+		<div class="row">
+			<div class="col-md-6">
+				<div class="copyright">
+					<h5 class="copyright-name">Copyright © 2016. <span class="rights">All rights reserved.</span></h5>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="developer">
+					<h3 class="developer-name">Desenvolvido por: <span class="name">Thallyson da Silva Barbosa.</span></h3>
+				</div>
+			</div>
+		</div> <!-- END ROW -->
+	</div> <!-- END CONTAINER -->
+	<!-- Bootstrap -->
   <script src="bootstrap/js/jquery-3.1.0.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
-
-  <!--  jQuery 1.7+  -->
-  <script src="js/jquery-1.9.1.min.js"></script>
 
   <!-- Include js plugin -->
   <script src="owl-carousel/owl.carousel.js"></script>
   <script src="js/typed.min.js"></script>
+  <script src="js/instafeed.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<!-- Google Maps -->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+
   <script src="js/main.js"></script>
+
 <script>
-  $(function(){
-      $(".typed").typed({
-        strings: ["Saúde,", "Bem Estar,", "Qualidade de vida."],
-        typeSpeed: 300,
-        loop : true,
-      });
-  });
+
 </script>
-<script>
-$(document).ready(function() {
-
-  $("#slide").owlCarousel({
-
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
-
-      items : 4,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3],
-      autoPlay : true,
-      lazyLoad : true,
-      pagination : false,
-  });
-
-  var owl = $("#slide");
-
-  owl.owlCarousel();
-
-  // Custom Navigation Events
-  $(".next").click(function(){
-    owl.trigger('owl.next');
-  })
-  $(".prev").click(function(){
-    owl.trigger('owl.prev');
-  })
-
-});
-</script>
-
 </body>
 </html>
