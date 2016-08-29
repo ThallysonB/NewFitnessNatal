@@ -529,15 +529,9 @@ body {
     list-style: none; }
     .social .social-links li {
       display: inline-block; }
-      .social .social-links li .fa {
-        font-size: 2.5em;
-        color: #FFFFFF;
-        margin-right: .5em;
-        margin-top: .3em;
-        transition: .2s ease-out .2s; }
-        .social .social-links li .fa:hover {
-          transition: .2s ease-out .2s;
-          color: #191919; }
+      .social .social-links li .icon {
+        margin-right: 5px;
+        padding-right: 15px; }
 
 .container-credits {
   font-family: 'gotham', sans-serif;

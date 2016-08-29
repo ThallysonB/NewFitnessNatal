@@ -632,17 +632,9 @@ body {
     list-style: none;
     li {
       display: inline-block;
-      .fa {
-        font-size: 2.5em;
-        color: #FFFFFF;
-        margin-right: .5em;
-        margin-top: .3em;
-        transition: .2s ease-out .2s;
-
-         &:hover {
-          transition: .2s ease-out .2s;
-          color: $main-color;
-         }
+      .icon {
+        margin-right: 5px;
+        padding-right: 15px;
       }
     }
   }
