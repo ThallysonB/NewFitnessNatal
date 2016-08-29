@@ -22,6 +22,7 @@ $(document).ready(function() {
 
       autoPlay: 3000, //Set AutoPlay to 3 seconds
       items : 4,
+      slideSpeed : 1000,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3],
       autoPlay : true,
@@ -60,7 +61,7 @@ $(".main-gallery").owlCarousel({
 
       navigation : false, // Show next and prev buttons
       pagination : true,
-      slideSpeed : 300,
+      slideSpeed : 1000,
       autoPlay : true,
       paginationSpeed : 400,
       singleItem:true,
