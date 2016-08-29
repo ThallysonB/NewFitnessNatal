@@ -21,13 +21,12 @@ $(document).ready(function() {
   $("#slide").owlCarousel({
 
       autoPlay: 3000, //Set AutoPlay to 3 seconds
-
       items : 4,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3],
       autoPlay : true,
       lazyLoad : true,
-      pagination : false,
+      pagination : true,
   });
 
   var owl = $("#slide");
@@ -60,7 +59,7 @@ $(document).ready(function() {
 $(".main-gallery").owlCarousel({
 
       navigation : false, // Show next and prev buttons
-      pagination : false,
+      pagination : true,
       slideSpeed : 300,
       autoPlay : true,
       paginationSpeed : 400,
