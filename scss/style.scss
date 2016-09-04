@@ -28,9 +28,11 @@ body {
   border-radius: 0px;
   z-index: 1;
   background-color: $main-color;
+  
   ul {
     margin-top: 2px;
   }
+  
   li a {
     background-color: $main-color;
     font-weight: bold;
@@ -41,6 +43,7 @@ body {
   background-color: $main-color;
   font-family: 'gotham', 'Roboto', sans-serif;
   transition: .2s ease-out .2s;
+  
   &:hover,
   &:active,
   &:focus {
@@ -72,6 +75,7 @@ body {
   background-attachment: fixed;
   text-align: center;
   padding: 0 10px;
+  
   .title-header {
     font-family: 'gotham', 'Roboto', sans-serif;
     color: #FFFFFF;
@@ -80,6 +84,7 @@ body {
     line-height: 1.5em;
     text-transform: uppercase;
   }
+  
   .title-header__featured {
     color: $main-color;
     padding: 5px 5px;
@@ -87,12 +92,14 @@ body {
     background-image: url(../img/background-texture.png);
     background-color: $tertiary-color;
   }
+  
   .typed {
     font-family: 'gotham', 'Roboto', sans-serif;
     font-size: 3em;
     text-transform: uppercase;
     color: #FFFFFF;
   }
+  
   .typed-cursor{
     display: none;
   }
@@ -186,6 +193,7 @@ body {
   position: relative;
   background-color: #2c2b26;
   padding-bottom: 4em;
+  
   h1 {
     margin-bottom: 1em;
     color: #FFFFFF;
@@ -193,11 +201,13 @@ body {
 }
 .title-photos {
   padding-bottom: 1em;
+  
   .title {
     color: white;
   }
 }
 #slide {
+  
   .item {
     padding: 20px 0px;
     margin: 10px;
@@ -209,6 +219,7 @@ body {
     text-align: center;
     background-image: url(../img/background-texture.png);
     background-color: $tertiary-color;
+    
     img {
       display: block;
       width: 100%;
@@ -219,6 +230,7 @@ body {
 .customNavigation{
   margin-top: 1.5em;
   text-align: center;
+  
   .btn-slide {
      font-family: 'gotham', 'Roboto', sans-serif;
     padding: 1em;
@@ -231,6 +243,7 @@ body {
     font-weight: bold;
     color: $main-color;
     text-transform: uppercase;
+    
     &:hover,
     &:active,
     &:focus,
@@ -239,12 +252,12 @@ body {
       text-decoration: none;
       cursor: pointer;
       background-color: transparent;
-      border: 1px solid #fdc029;
     }
   }
 }
 .container-time {
   padding-bottom: .6em;
+  
   .description-time {
     font-family: 'gotham', 'Roboto', sans-serif;
     text-align: center;
@@ -255,17 +268,21 @@ body {
     letter-spacing: 0.1em;
     margin-top: -10px;
   }
+  
   .time-details {
     text-align: center;
+    
     h3 {
       font-family: 'gotham', 'Roboto', sans-serif;
       font-weight: bold;
       font-size: 2em;
     }
+    
     p {
       font-size: 1.5em;
     }
   }
+  
   .glyphicon-time {
     font-size: 4em;
     margin: 25px 0;
@@ -282,10 +299,13 @@ body {
       color: #FFFFFF;
     }
   }
+  
   .our-team {
+    
     .team {
       position: relative;
     }
+    
     .title {
       font-size: 20px;
       font-weight: 800;
@@ -293,9 +313,11 @@ body {
       text-transform: uppercase;
       transition: all 0.5s ease 0s;
     }
+    
     &:hover .title {
       color: #E3A920;
     }
+    
     .post{
       display: block;
       font-size: 13px;
@@ -305,13 +327,16 @@ body {
       text-transform: uppercase;
       margin-bottom: 12px;
     }
+    
     &:hover .post {
       color: $main-color;
       background-color: #FFFFFF;
     }
+    
     .pic  {
       position: relative;
       overflow: hidden;
+      
       &:after {
         content: "";
         width: 100%;
@@ -323,14 +348,17 @@ body {
         opacity: 0;
         transition: all 0.5s ease 0s;
       }
+      
       img {
         width: 100%;
         height: auto;
       }
     }
+    
     &:hover .pic:after {
       opacity: 1;
     }
+    
     .social-links {
       padding: 0;
       margin: 0;
@@ -342,9 +370,11 @@ body {
       text-align: center;
       z-index: 1;
       transition: all 0.5s ease 0s;
+      
       li {
         display: inline-block;
         margin-right: 5px;
+        
         a {
           display: block;
           padding-bottom: 1.5em;
@@ -358,9 +388,11 @@ body {
         }
       }
     }
+    
     &:hover .social-links {
       bottom: 20px;
     }
+    
     .team-info  {
       font-family: 'gotham', 'Roboto', sans-serif;
       font-weight: normal;
@@ -374,6 +406,7 @@ body {
       overflow: hidden;
       z-index: 1;
       transition: all 0.5s ease 0s;
+      
       &:before {
         content: "";
         width: 100%;
@@ -386,12 +419,15 @@ body {
         transition: all 0.5s ease 0s;
       }
     }
+    
     &:hover .team-info {
       color: #FFFFFF;
+      
       &:before {
         left: 0;
       }
     }
+    
     .description{
       text-align: center;
       letter-spacing: .1em !important;
@@ -399,20 +435,24 @@ body {
       line-height: 22px;
       padding: .6em 0;
     }
+    
     .schedule {
       color: #FFFFFF;
       background-color: $main-color;
       padding: 5px;
     }
+    
     &:hover .schedule {
       color: $main-color;
       background-color: #FFFFFF;
     }
+    
     @media screen and (max-width: 990px){
       margin-bottom: 25px;
     }
   }
 }
+
 .pricing-table {
   font-family: 'gotham', 'Roboto', sans-serif;
   text-align: center;
@@ -429,6 +469,7 @@ body {
     position: relative;
     cursor: pointer;
   }
+  
   .pricing-icon__header {
     color: #E3A920;
     width: 115px;
@@ -440,34 +481,42 @@ body {
     margin: -65px auto 0;
     cursor: pointer;
   }
+  
   .heading {
     font-size: 2em;
     text-transform: uppercase;
     cursor: pointer;
   }
+  
   .price-value {
     font-size: 2em;
     padding: 1.5em;
     background-color: #262626;
+    
     .value-month {
+      
       &:after {
         content: "/ ";
         font-size: .8em;
       }
     }
+    
     .month {
       font-size: .8em;
     }
   }
+  
   .alert-danger {
     font-size: 1.5em;
     padding: 2em;
     margin-bottom: 0;
   }
+  
   .pricing-table__alert {
     border-radius: 10px 10px 0 0;
     position: relative;
   }
+  
   .pricing-icon__footer {
     color: #E3A920;
     width: 115px;
@@ -478,12 +527,14 @@ body {
     padding: 15px 0 60px 0;
     margin: 0 auto 0;
   }
+  
   .pricing-table__footer {
     border-radius: 0 0 10px 10px;
     height: 40px;
     background-color: $main-color;
   }
 }
+
 .btn-contact {
   position: relative;
   cursor: pointer;

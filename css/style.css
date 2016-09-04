@@ -208,8 +208,7 @@ body {
       color: #FFFFFF;
       text-decoration: none;
       cursor: pointer;
-      background-color: transparent;
-      border: 1px solid #fdc029; }
+      background-color: transparent; }
 
 .container-time {
   padding-bottom: .6em; }
