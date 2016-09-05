@@ -213,14 +213,17 @@ body {
     border-image-slice: 1;
     margin: 0px 0;
     padding: 0; 
+
+    @media (min-width: 768px) {
+        margin-bottom: 20px;
+      }
   }
   .gallery-photos-about {
     text-align: center;
 
     .photo-about {
       display: inline-block;
-      margin-top: 30px;
-      margin-right: 15px;
+      margin-top: 20px;
       text-decoration: none;
       position: relative;
       padding: 5px;
@@ -234,12 +237,24 @@ body {
       -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
       box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 
+      @media (min-width: 375px) {
+        margin-right: 10px;
+      }
     }
     .example-image {
-      width: 180px;
+      width: 130px;
+      
+      @media (min-width: 375px) {
+        width: 140px;
+      }
+      
+      @media (min-width: 425px) {
+        width: 170px;
+      }
 
-
-    
+      @media (min-width: 768px) {
+        width: 150px;
+      }
     }
   }
 }
@@ -624,11 +639,15 @@ body {
     }
   }
   .btn-contact1 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     background: #2c2b26;
     color: #FFFFFF;
     border-radius: 5px;
-  
+    
+    @media (min-width: 375px) {
+      font-size: 1.5em;
+    }
+    
     &:hover {
       color: #FFFfFF;
     }
@@ -835,6 +854,24 @@ body {
     list-style-type: none;
     z-index: 1;
     
+    @media (min-width: 768px) {
+      padding: 1.3em 1em 0 1em;
+    }
+    
+    @media (min-width: 1024px) {
+      padding: 3.5em 1em 0 1em;
+    }
+    
+    .phone {
+      
+      @media (min-width: 768px) {
+        font-size: 1.2em;
+      }
+      
+      @media (min-width: 1024px) {
+        font-size: 1.3em;
+      }
+    }
     h1, h2, h3 {
       font-size: 1.3em;
       font-weight: bold;
@@ -1004,10 +1041,6 @@ body {
   .container-location {
     margin-top: -5em;
     margin-bottom: -4em;
-    
-    .infos {
-      padding: 4em 1em 0 1em;
-    }
     
     .google-maps__adress {
       padding-top: 1px;
