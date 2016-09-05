@@ -131,6 +131,15 @@ $(document).ready(function(){
   });
 });
 
+// TOGGLE PHONE //
+$(document).ready(function(){
+  $(".number-phone").hide();
+
+  $("#button-contact").click(function(){
+    $(".number-phone").toggle(300);
+  });
+});
+
 // SCROLL HREF //
 $(document).ready(function(){
 var $doc = $('html, body');
