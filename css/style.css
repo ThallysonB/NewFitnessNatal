@@ -125,7 +125,7 @@ body {
 
 .container-about {
   font-family: 'gotham', sans-serif;
-  padding: 3.5em 4em 5em 4em; }
+  padding: 3.5em 2em 5em 2em; }
   .container-about .title-about {
     text-align: left; }
   .container-about .description {
@@ -702,6 +702,9 @@ body {
 
   .logo-about {
     width: 100%; }
+
+  .container-about {
+    padding: 0 4em; }
 
   .container-testimonial {
     padding-bottom: 12em; }
