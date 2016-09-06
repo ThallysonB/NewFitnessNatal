@@ -46,7 +46,9 @@ body {
 .navbar .navbar-nav>li>a {
   background-color: $main-color;
   font-family: 'gotham', 'Roboto', sans-serif;
-  transition: .2s ease-out .2s;
+  -webkit-transition: 0.2s ease-out 0.2s;
+  -moz-transition: 0.2s ease-out 0.2s;
+  transition: 0.2s ease-out 0.2s;
   
   &:hover,
   &:active,
@@ -133,6 +135,8 @@ body {
   font-weight: bold;
   color: $main-color;
   text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
   transition: 0.3s;
   letter-spacing: 1px;
   box-shadow: 0 7px #E1A823;
@@ -148,14 +152,17 @@ body {
   &:hover {
     box-shadow: 0 4px #E1A823;
     top: 75.5%;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
     transition: 0.1s;
   }
   
   &:active {
     box-shadow: 0 0 #E1A823;
     top: 76.3%;
-      transition: 0.1s;
-
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    transition: 0.1s;
   }
 }
 
@@ -305,13 +312,15 @@ body {
   text-align: center;
   
   .btn-slide {
-     font-family: 'gotham', 'Roboto', sans-serif;
+    font-family: 'gotham', 'Roboto', sans-serif;
     padding: 1em;
     margin-right: 1em;
     border-radius: 5px;
     background-image: url(../img/background-texture.png);
     background-color: $tertiary-color;
     border-color: transparent;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
     transition: 0.5s;
     font-weight: bold;
     color: $main-color;
@@ -384,6 +393,8 @@ body {
       font-weight: 800;
       margin-bottom: 10px;
       text-transform: uppercase;
+      -webkit-transition: all 0.5s ease 0s;
+      -moz-transition: all 0.5s ease 0s;
       transition: all 0.5s ease 0s;
     }
     
@@ -419,6 +430,8 @@ body {
         top: 0;
         left: 0;
         opacity: 0;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
         transition: all 0.5s ease 0s;
       }
       
@@ -442,6 +455,8 @@ body {
       left: 0;
       text-align: center;
       z-index: 1;
+      -webkit-transition: all 0.5s ease 0s;
+      -moz-transition: all 0.5s ease 0s;
       transition: all 0.5s ease 0s;
       
       li {
@@ -457,6 +472,8 @@ body {
           border-radius: 50%;
           font-size: 2.3em;
           color: #fdfffc;
+          -webkit-transition: all 0.5s ease 0s;
+          -moz-transition: all 0.5s ease 0s;
           transition: all 0.5s ease 0s;
         }
       }
@@ -478,6 +495,8 @@ body {
       position: relative;
       overflow: hidden;
       z-index: 1;
+      -webkit-transition: all 0.5s ease 0s;
+      -moz-transition: all 0.5s ease 0s;
       transition: all 0.5s ease 0s;
       
       &:before {
@@ -489,6 +508,8 @@ body {
         left: -100%;
         background: $main-color;
         z-index: -1;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
         transition: all 0.5s ease 0s;
       }
     }
@@ -606,6 +627,7 @@ body {
     background-color: $main-color;
   }
 }
+
 .container__btn-contact {
   display: -ms-flex; 
   display: -webkit-flex; 
@@ -916,6 +938,8 @@ body {
       text-decoration: none;
       font-weight: 800;
       color: $main-color;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
       transition: 0.3s;
       
       &:hover {
