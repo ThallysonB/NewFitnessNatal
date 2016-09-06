@@ -152,6 +152,12 @@ body {
     font-weight: lighter; }
   .container-about .container-photo__about {
     margin: 30px 0; }
+    @media (min-width: 1024px) {
+      .container-about .container-photo__about {
+        margin-top: 80px; } }
+    @media (min-width: 1300px) {
+      .container-about .container-photo__about {
+        margin-top: 50px; } }
     @media (min-width: 992px) {
       .container-about .container-photo__about {
         bottom: 0; } }

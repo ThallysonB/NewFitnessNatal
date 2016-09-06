@@ -207,6 +207,14 @@ body {
 
   .container-photo__about {
     margin: 30px 0;
+    
+    @media (min-width: 1024px) {
+      margin-top: 80px;
+    }
+    
+    @media (min-width:  1300px) {
+      margin-top: 50px;
+    }
 
     @media (min-width: 992px) {
       bottom: 0;
