@@ -2,7 +2,7 @@
 $(document).ready(function() {
   $(function(){
       $(".typed").typed({
-        strings: ["Saúde,", "Bem Estar,", "Qualidade de vida."],
+        strings: ["Saúde,", "Bem-estar,", "Qualidade de vida."],
         typeSpeed: 300,
         loop : true,
       });

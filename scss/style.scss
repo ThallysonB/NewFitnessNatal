@@ -1004,7 +1004,7 @@ body {
   font-family: 'gotham', sans-serif;
   color: #FFFFFF;
   padding: 1em 1.5em;
-  background-color: #2c2b26;
+  background-color: $main-color;
   text-align: center;
   
   .copyright {
@@ -1102,10 +1102,7 @@ body {
   }
   
   .container-credits {
-    font-family: 'gotham', sans-serif;
-    color: #FFFFFF;
     padding: 1em 1.5em;
-    background-color: #2c2b26;
     text-align: left;
     
     .copyright {
